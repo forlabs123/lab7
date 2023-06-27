@@ -11,11 +11,10 @@ import java.util.Optional;
 
 public class Repository {
     static final String DB_URL = "jdbc:postgresql://127.0.0.1:5432/studs";
-    //static final String USER = "postgres";
-    static final String USER = "s369101";
-    //static final String PASS = "1123";
-    static final String PASS = "LSHZG49PWSa2GxXb";
-    //static final String DB_URL = "jdbc:postgresql://127.0.0.1:5432/studs?user=s369101&password=Bsgv(2191";
+    static final String USER = "postgres";
+
+    static final String PASS = "1123";
+
 
     public Connection createConnection() {
         try {
